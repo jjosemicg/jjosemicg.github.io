@@ -27,7 +27,7 @@ Aquí puedes consultar la documentación oficial de mis titulaciones y cursos de
 
   <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid #30363d; border-radius: 8px; padding: 20px; width: 300px; flex-grow: 1;">
     <h3 style="margin-top: 0;">🇬🇧 Inglés B2 (First)</h3>
-    <p style="color: #8b949e; font-size: 0.9em;">Cambridge English</p>
+    <p style="color: #8b949e; font-size: 0.9em;">Language Cert</p>
     <p>Certificación de nivel intermedio-alto con competencia profesional.</p>
     <a href="/assets/certificados/e-cert.pdf" target="_blank" style="background: #1f6feb; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; display: inline-block; margin-top: 10px; font-weight: bold;">📄 Ver Certificado Listening, Reading y Writing</a>
     <a href="/assets/certificados/Speaking-cert.pdf" target="_blank" style="background: #1f6feb; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; display: inline-block; margin-top: 10px; font-weight: bold;">📄 Ver Certificado Speaking</a>
