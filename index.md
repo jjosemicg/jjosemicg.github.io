@@ -1,8 +1,3 @@
-<style>
-  .button.fork { display: none !important; }
-  .credits { display: none !important; }
-</style>
-
 # Hola, soy Jose Miguel.
 
 <img src="https://github.com/jjosemicg.png" alt="Foto Perfil" width="150" style="border-radius: 50%; border: 3px solid #36BCF7;">
