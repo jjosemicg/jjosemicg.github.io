@@ -8,16 +8,17 @@
     {% seo %}
     
     <style>
-      /* --- ESTILOS GENERALES (PC) --- */
-      body { margin: 0; }
+      /* --- ESTILOS PC (Escritorios) --- */
+      body { margin: 0; padding: 0; }
       
       #custom-nav-bar {
-        background: #0d1117; /* Fondo casi negro (GitHub Dark Dimmed) */
+        background: #0d1117; /* Fondo oscuro GitHub */
         border-bottom: 1px solid #30363d;
         padding: 15px 0;
+        width: 100%; /* Asegura que ocupe todo el ancho */
         position: sticky;
         top: 0;
-        z-index: 1000;
+        z-index: 9999; /* Por encima de todo */
         box-shadow: 0 4px 12px rgba(0,0,0,0.5);
       }
 
@@ -54,38 +55,43 @@
       .wrapper { margin-top: 20px; }
       .button.fork, .credits, footer p { display: none !important; }
 
-      /* --- ESTILOS SOLO PARA MÓVIL (Responsive) --- */
+      /* --- ESTILOS MÓVIL (SOLUCIÓN DEFINITIVA) --- */
       @media screen and (max-width: 600px) {
         
         #custom-nav-bar {
-          padding: 10px 0; /* Menos altura en móvil */
+          padding: 10px 0;
+          position: relative; /* En móvil quitamos el sticky por si acaso */
         }
 
         nav ul {
-          display: flex; /* Usar sistema flexible */
-          flex-wrap: wrap; /* Permitir que bajen a la siguiente línea */
-          justify-content: center; /* Centrar todo */
+          display: grid; /* Usamos Grid en vez de Flex */
+          grid-template-columns: 1fr 1fr; /* 2 columnas iguales */
           gap: 8px; /* Espacio entre botones */
           padding: 0 10px;
+          width: 95%; /* Que ocupe casi todo el ancho */
+          margin: 0 auto; /* Centrado */
         }
 
         nav ul li {
+          display: block;
           margin: 0;
-          flex: 1 1 auto; /* Que los botones crezcan para llenar huecos */
+          width: 100%;
+        }
+        
+        /* El último elemento (Títulos) que ocupe las 2 columnas para que quede centrado */
+        nav ul li:last-child {
+          grid-column: span 2;
+          width: 50%;
+          margin: 0 auto;
         }
 
         nav a {
-          display: block; /* Convertir en bloque para poder darles tamaño */
-          background-color: #21262d; /* Fondo gris oscuro visible */
-          border: 1px solid #30363d; /* Borde sutil */
-          font-size: 0.85em; /* Letra un pelín más pequeña */
-          padding: 10px 5px; /* Más zona táctil para el dedo */
-          white-space: nowrap; /* Evitar que el texto se rompa */
-        }
-        
-        /* Ajuste visual para que se vea bien */
-        nav a:active {
-          background-color: #30363d; /* Efecto al pulsar con el dedo */
+          display: block;
+          background-color: #21262d; /* Fondo gris botón */
+          border: 1px solid #30363d;
+          text-align: center;
+          padding: 10px 5px;
+          font-size: 0.85em; /* Letra ajustada */
         }
       }
     </style>
