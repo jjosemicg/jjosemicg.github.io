@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "es-ES" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% seo %}
+    <style>
+      /* Correcciones visuales rápidas */
+      .wrapper { margin-top: 40px; }
+      nav ul { padding: 0; text-align: center; }
+      nav ul li { display: inline; margin: 0 15px; }
+      nav a { color: #fff; font-weight: bold; text-decoration: none; font-size: 1.1em; }
+      nav a:hover { color: #36BCF7; }
+    </style>
+  </head>
+  <body>
+    <div id="header" style="background-color: #1e2227; padding: 20px 0; border-bottom: 1px solid #30363d;">
+      <nav>
+        <ul>
+          <li><a href="/">Inicio</a></li>
+          <li><a href="/proyectos/magia/">App Magia</a></li>
+          <li><a href="/proyectos/hardware/">Hardware</a></li>
+          <li><a href="/proyectos/web/">E-commerce</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="wrapper">
+      <section>
+        <div id="title">
+          <h1>{{ site.title | default: site.github.repository_name }}</h1>
+          <p>{{ site.description | default: site.github.project_tagline }}</p>
+          <hr>
+          </div>
+
+        {{ content }}
+
+      </section>
+      
+      <section class="footer" style="text-align: center; margin-top: 50px; opacity: 0.5; font-size: 0.8em;">
+        <p>&copy; 2026 Jose Miguel Caravaca Guirao</p>
+      </section>
+    </div>
+    
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+  </body>
+</html>
