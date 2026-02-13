@@ -9,18 +9,18 @@
 
 ## 🛠 Proyectos Destacados
 
-### 📱 [App de Magia Interactiva (TFG)](./proyectos/magia)
+### 📱 [App de Magia Interactiva (TFG)](/proyectos/magia/)
 *En desarrollo | iOS, Android, Web*
 Un ecosistema digital que fusiona ilusionismo y tecnología.
 - **Tech Stack:** IA Generativa, Sensores de Hardware (Magnetómetro, Bluetooth), Lógica Visual.
 - **Innovación:** Editor de trucos "No-Code" y Marketplace integrado.
 
-### ⌚ [Modding de Hardware & Seiko Mods](./proyectos/hardware)
+### ⌚ [Modding de Hardware & Seiko Mods](/proyectos/hardware/)
 *Freelance | Ingeniería de Precisión*
 Diseño, ensamblaje y modificación de relojería automática y hardware electrónico.
 - **Habilidades:** Micro-soldadura, Diagnóstico de PCB, Impresión 3D.
 
-### 🚀 [E-commerce & Estrategia Digital](./proyectos/web)
+### 🚀 [E-commerce & Estrategia Digital](/proyectos/web/)
 *Freelance*
 Desarrollo de tiendas Shopify optimizadas y gestión de ventas en Amazon.
 - **Logros:** Implementación de estrategias SEO y automatización de procesos.
