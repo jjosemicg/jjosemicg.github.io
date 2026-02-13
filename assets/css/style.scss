@@ -3,17 +3,20 @@
 
 @import "{{ site.theme }}";
 
-/* Ocultar botón "View on GitHub" */
-header a.button.fork {
+/* --- CORRECCIONES PARA TEMA MIDNIGHT --- */
+
+/* 1. Ocultar el botón verde (En Midnight se llama .btn) */
+a.btn {
   display: none !important;
 }
 
-/* Ocultar los créditos del pie de página */
-.wrapper > footer p {
-    display: none !important;
+/* 2. Ocultar créditos del pie de página */
+/* Midnight usa etiquetas <p> dentro del footer */
+footer p {
+  display: none !important;
 }
 
-/* 3. Ajuste para que tus tarjetas de certificados se vean bien en móvil */
+/* 3. Ajuste móvil para tus certificados */
 @media screen and (max-width: 600px) {
   div[style*="display: flex"] {
     flex-direction: column;
