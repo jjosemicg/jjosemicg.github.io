@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Certificaciones Oficiales
-permalink: /certificados/
+permalink: /assets/certificados/certificado/
 ---
 
 # 🎓 Certificaciones y Títulos
