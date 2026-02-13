@@ -8,17 +8,17 @@
     {% seo %}
     
     <style>
-      /* --- ESTILOS DE LA BARRA DE NAVEGACIÓN (HEADER) --- */
+      /* --- ESTILOS GENERALES (PC) --- */
+      body { margin: 0; }
       
-      /* El fondo de la barra: Gris oscuro elegante (no azul chillón) */
       #custom-nav-bar {
-        background: #15191d; /* Gris muy oscuro, casi negro */
-        border-bottom: 1px solid #30363d; /* Línea sutil gris */
+        background: #0d1117; /* Fondo casi negro (GitHub Dark Dimmed) */
+        border-bottom: 1px solid #30363d;
         padding: 15px 0;
-        box-shadow: 0 4px 10px rgba(0,0,0,0.5); /* Sombra para dar profundidad */
-        position: sticky; /* (Opcional) Hace que el menú se quede fijo arriba al bajar */
+        position: sticky;
         top: 0;
         z-index: 1000;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
       }
 
       nav ul { 
@@ -30,39 +30,63 @@
       
       nav ul li { 
         display: inline-block; 
-        margin: 0 8px; 
+        margin: 0 5px; 
       }
 
-      /* Aspecto de los Botones */
       nav a { 
-        color: #c9d1d9; /* Texto gris claro (legible) */
+        color: #c9d1d9; 
         font-weight: 600; 
         text-decoration: none; 
         font-size: 0.95em;
-        padding: 8px 16px;
+        padding: 8px 12px;
         border-radius: 6px;
-        border: 1px solid transparent; /* Borde invisible para que no salte al hacer hover */
-        transition: all 0.2s ease-in-out;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        transition: all 0.2s ease;
+        border: 1px solid transparent;
       }
 
-      /* Efecto al pasar el ratón (Hover) */
       nav a:hover { 
-        background-color: #21262d; /* El fondo se oscurece un poco */
-        color: #58a6ff; /* El texto se ilumina en azul GitHub */
-        border-color: #363b42; /* Aparece un borde sutil */
-        transform: translateY(-1px); /* Pequeño efecto de elevación */
+        background-color: #21262d; 
+        color: #58a6ff; 
+        border-color: #363b42;
       }
 
-      /* Ajustes generales para limpiar el tema */
-      .wrapper { margin-top: 30px; }
-      .button.fork { display: none !important; } /* Asegura que el botón verde desaparezca */
-      .credits { display: none !important; }
-      
-      /* Ajuste para móviles */
+      /* --- CORRECCIONES TEMA --- */
+      .wrapper { margin-top: 20px; }
+      .button.fork, .credits, footer p { display: none !important; }
+
+      /* --- ESTILOS SOLO PARA MÓVIL (Responsive) --- */
       @media screen and (max-width: 600px) {
-        nav a { padding: 5px 10px; font-size: 0.85em; }
-        nav ul li { margin: 0 2px; }
+        
+        #custom-nav-bar {
+          padding: 10px 0; /* Menos altura en móvil */
+        }
+
+        nav ul {
+          display: flex; /* Usar sistema flexible */
+          flex-wrap: wrap; /* Permitir que bajen a la siguiente línea */
+          justify-content: center; /* Centrar todo */
+          gap: 8px; /* Espacio entre botones */
+          padding: 0 10px;
+        }
+
+        nav ul li {
+          margin: 0;
+          flex: 1 1 auto; /* Que los botones crezcan para llenar huecos */
+        }
+
+        nav a {
+          display: block; /* Convertir en bloque para poder darles tamaño */
+          background-color: #21262d; /* Fondo gris oscuro visible */
+          border: 1px solid #30363d; /* Borde sutil */
+          font-size: 0.85em; /* Letra un pelín más pequeña */
+          padding: 10px 5px; /* Más zona táctil para el dedo */
+          white-space: nowrap; /* Evitar que el texto se rompa */
+        }
+        
+        /* Ajuste visual para que se vea bien */
+        nav a:active {
+          background-color: #30363d; /* Efecto al pulsar con el dedo */
+        }
       }
     </style>
   </head>
@@ -93,7 +117,7 @@
       </section>
       
       <section class="footer" style="text-align: center; margin-top: 50px; opacity: 0.4; font-size: 0.8em; color: #8b949e;">
-        <p>&copy; 2026 Jose Miguel Caravaca Guirao | Ingeniero Informático</p>
+        <p>&copy; 2026 Jose Miguel Caravaca Guirao</p>
       </section>
     </div>
     
