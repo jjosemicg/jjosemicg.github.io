@@ -1,8 +1,5 @@
 <style>
-  /* Oculta el botón verde de GitHub */
   .button.fork { display: none !important; }
-
-  /* Oculta los créditos de "Maintained by" y "Hosted on" para que se vea más limpia */
   .credits { display: none !important; }
 </style>
 
