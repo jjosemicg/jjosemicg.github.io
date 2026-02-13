@@ -1,4 +1,5 @@
 # Jose Miguel
+
 Estudiante de último año de Ingeniería Informática con perfil
 multidisciplinar. Combino el desarrollo de software (C++, Java, Python) con
 experiencia real en reparación de hardware, e-commerce y metodologías
