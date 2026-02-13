@@ -1,1 +1,7 @@
-theme: jekyll-theme-architect
+title: Jose Miguel Caravaca
+description: Estudiante de Ingeniería Informática | Hardware, IA & Emprendimiento
+theme: jekyll-theme-midnight
+show_downloads: false
+google_analytics:
+plugins:
+  - jekyll-seo-tag
