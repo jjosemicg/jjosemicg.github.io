@@ -1,8 +1,42 @@
-# Jose Miguel
+# Hola, soy Jose Miguel.
 
-Estudiante de último año de Ingeniería Informática con perfil
-multidisciplinar. Combino el desarrollo de software (C++, Java, Python) con
-experiencia real en reparación de hardware, e-commerce y metodologías
-SEO. Busco aportar mi capacidad de resolución de problemas y visión
-emprendedora a proyectos tecnológicos innovadores con altas
-capacidades de aprendizaje, adaptación y trabajo en equipo.
+<img src="https://github.com/jjosemicg.png" alt="Foto Perfil" width="150" style="border-radius: 50%; border: 3px solid #36BCF7;">
+
+> **Ingeniero Informático en formación & Emprendedor Tecnológico.**
+> Especializado en unir el mundo del *software* (IA, Apps) con el *hardware* (Sensores, Robótica).
+
+---
+
+## 🛠 Proyectos Destacados
+
+### 📱 [App de Magia Interactiva (TFG)](./proyectos/magia)
+*En desarrollo | iOS, Android, Web*
+Un ecosistema digital que fusiona ilusionismo y tecnología.
+- **Tech Stack:** IA Generativa, Sensores de Hardware (Magnetómetro, Bluetooth), Lógica Visual.
+- **Innovación:** Editor de trucos "No-Code" y Marketplace integrado.
+
+### ⌚ [Modding de Hardware & Seiko Mods](./proyectos/hardware)
+*Freelance | Ingeniería de Precisión*
+Diseño, ensamblaje y modificación de relojería automática y hardware electrónico.
+- **Habilidades:** Micro-soldadura, Diagnóstico de PCB, Impresión 3D.
+
+### 🚀 [E-commerce & Estrategia Digital](./proyectos/web)
+*Freelance*
+Desarrollo de tiendas Shopify optimizadas y gestión de ventas en Amazon.
+- **Logros:** Implementación de estrategias SEO y automatización de procesos.
+
+---
+
+## 💻 Stack Tecnológico
+
+| Core | Herramientas | Hardware |
+| :--- | :--- | :--- |
+| **Java / C++** | Git / GitHub | Arduino / RPi |
+| **Python / IA** | Adobe Premiere | Impresión 3D |
+| **Web Tech** | Shopify / SEO | Reparación |
+
+---
+
+## 📬 Contacto
+¿Tienes un proyecto en mente?
+[LinkedIn](https://www.linkedin.com/in/jose-miguel-caravaca-guirao-275267257) • [Email](mailto:jmcg3101@gmail.com)
