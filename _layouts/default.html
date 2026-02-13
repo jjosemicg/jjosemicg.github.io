@@ -8,79 +8,70 @@
     {% seo %}
     
     <style>
-      /* --- RESET Y BASE --- */
+      /* --- ESTILOS BASE --- */
       body { margin: 0; padding: 0; background-color: #1e2227; }
       
-      /* --- BARRA DE NAVEGACIÓN --- */
+      /* --- BARRA DE NAVEGACIÓN COMPACTA --- */
       #custom-nav-bar {
-        background: #0d1117; 
-        border-bottom: 1px solid #30363d;
-        padding: 10px 0;
+        background: #0d1117; /* Fondo oscuro elegante */
+        border-bottom: 1px solid #21262d; /* Línea muy sutil */
+        padding: 5px 0; /* MUCHO MÁS PEQUEÑO (Antes era 15px) */
         width: 100%;
         position: sticky; 
         top: 0;
         z-index: 9999;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.4);
       }
 
-      /* AQUÍ ESTÁ EL TRUCO: Forzamos que se vea SIEMPRE */
-      nav {
-        display: block !important; 
-        visibility: visible !important;
-      }
+      /* Forzamos que el menú se vea SIEMPRE */
+      nav { display: block !important; }
 
       nav ul { 
-        display: flex !important; /* Forzamos Flexbox */
-        flex-wrap: wrap !important; /* Forzamos que bajen de línea */
+        display: flex !important; 
+        flex-wrap: wrap !important; /* Se adaptan si no caben */
         justify-content: center; 
         align-items: center;
-        gap: 8px; /* Espacio entre botones */
-        padding: 0 10px;
+        gap: 4px; /* Espacio pequeño entre botones */
+        padding: 0 5px;
         margin: 0 auto;
-        max-width: 1200px; 
         list-style: none;
       }
       
       nav ul li { 
         display: block !important;
-        flex: 1 1 auto; /* Crecimiento automático */
-        min-width: 110px; /* Ancho mínimo para que quepa el texto */
+        /* Quitamos el ancho mínimo forzado para que sean más compactos */
+        flex: 0 1 auto; 
       }
 
+      /* ESTILO DE LOS BOTONES (TRANSPARENTES Y PEQUEÑOS) */
       nav a { 
         display: block !important;
-        background-color: #21262d; 
-        color: #c9d1d9 !important; /* Forzamos el color */
+        background-color: transparent; /* TRANSPARENTE (Como querías) */
+        border: 1px solid transparent; /* SIN BORDE VISIBLE */
+        color: #c9d1d9 !important; 
         font-weight: 600; 
         text-decoration: none; 
-        font-size: 0.9em;
-        padding: 12px 5px; /* Más alto para tocar mejor con el dedo */
-        border-radius: 6px;
-        text-align: center;
-        border: 1px solid #30363d;
+        font-size: 0.85em; /* Letra más pequeña y fina */
+        padding: 6px 10px; /* Relleno compacto */
+        border-radius: 4px;
         transition: all 0.2s ease;
       }
 
-      /* Hover solo en PC (Evita que se quede pillado en móvil) */
-      @media (hover: hover) {
-        nav a:hover { 
-          background-color: #30363d; 
-          color: #58a6ff !important; 
-          border-color: #8b949e;
-          transform: translateY(-2px);
-        }
+      /* Efecto Hover (Solo al pasar el ratón) */
+      nav a:hover { 
+        background-color: rgba(110, 118, 129, 0.1); /* Gris muy suave translúcido */
+        color: #58a6ff !important; /* Azul GitHub */
+        text-decoration: none;
       }
 
-      /* --- CORRECCIONES PARA EL TEMA QUE NOS MOLESTA --- */
+      /* --- CORRECCIONES TEMA --- */
       .wrapper { margin-top: 20px; }
-      
-      /* Ocultamos cosas del tema original */
       .button.fork, .credits, footer p { display: none !important; }
       
-      /* IMPORTANTE: Sobrescribimos la regla del tema que oculta el menú en móvil */
-      @media screen and (max-width: 640px) {
-        nav { display: block !important; }
-        nav ul { display: flex !important; }
+      /* --- MÓVIL EXTREMO (Pantallas muy estrechas) --- */
+      @media screen and (max-width: 400px) {
+        nav ul { gap: 2px; }
+        nav a { padding: 5px 8px; font-size: 0.8em; }
       }
 
     </style>
@@ -94,7 +85,7 @@
           <li><a href="/proyectos/magia/">📱 App Magia</a></li>
           <li><a href="/proyectos/hardware/">🛠 Hardware</a></li>
           <li><a href="/proyectos/web/">🚀 E-commerce</a></li>
-          <li><a href="/assets/certificados/certificado/">🎓 Títulos</a></li>
+          <li><a href="/certificados/">🎓 Títulos</a></li>
         </ul>
       </nav>
     </div>
