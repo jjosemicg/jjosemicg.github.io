@@ -6,6 +6,7 @@
 > Especializado en unir el mundo del *software* (IA, Apps) con el *hardware* (Sensores, Robótica).
 
 ---
+
 [🏠 Inicio](/) | [📱 App Magia](/proyectos/magia/) | [🛠 Hardware](/proyectos/hardware/) | [🎓 Certificados](/assets/certificados/certificado/)
 
 ## 🛠 Proyectos Destacados
