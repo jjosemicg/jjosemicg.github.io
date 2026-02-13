@@ -8,64 +8,80 @@
     {% seo %}
     
     <style>
-      /* --- RESET BÁSICO --- */
-      body { margin: 0; padding: 0; }
+      /* --- RESET Y BASE --- */
+      body { margin: 0; padding: 0; background-color: #1e2227; }
       
-      /* --- BARRA DE NAVEGACIÓN FLUIDA --- */
+      /* --- BARRA DE NAVEGACIÓN --- */
       #custom-nav-bar {
-        background: #0d1117; /* Fondo oscuro GitHub */
+        background: #0d1117; 
         border-bottom: 1px solid #30363d;
         padding: 10px 0;
         width: 100%;
-        position: sticky; /* Se queda fijo al bajar */
+        position: sticky; 
         top: 0;
         z-index: 9999;
         box-shadow: 0 4px 12px rgba(0,0,0,0.5);
       }
 
+      /* AQUÍ ESTÁ EL TRUCO: Forzamos que se vea SIEMPRE */
+      nav {
+        display: block !important; 
+        visibility: visible !important;
+      }
+
       nav ul { 
-        display: flex; /* ESTA ES LA CLAVE */
-        flex-wrap: wrap; /* Si no caben, bajan a la siguiente línea automáticamente */
-        justify-content: center; /* Siempre centrados */
-        gap: 10px; /* Espacio entre botones */
+        display: flex !important; /* Forzamos Flexbox */
+        flex-wrap: wrap !important; /* Forzamos que bajen de línea */
+        justify-content: center; 
+        align-items: center;
+        gap: 8px; /* Espacio entre botones */
         padding: 0 10px;
         margin: 0 auto;
-        max-width: 1200px; /* Que no se estiren infinitamente en pantallas 4K */
+        max-width: 1200px; 
         list-style: none;
       }
       
       nav ul li { 
-        /* Comportamiento elástico de cada botón */
-        flex: 1 1 auto; /* Crece si hay hueco, encoge si no hay */
-        min-width: 120px; /* Nunca será más pequeño que esto (para que se lea bien) */
-        max-width: 200px; /* Nunca será excesivamente ancho */
+        display: block !important;
+        flex: 1 1 auto; /* Crecimiento automático */
+        min-width: 110px; /* Ancho mínimo para que quepa el texto */
       }
 
       nav a { 
-        display: block; /* El enlace llena todo el botón */
-        background-color: #21262d; /* Fondo gris botón */
-        color: #c9d1d9; 
+        display: block !important;
+        background-color: #21262d; 
+        color: #c9d1d9 !important; /* Forzamos el color */
         font-weight: 600; 
         text-decoration: none; 
         font-size: 0.9em;
-        padding: 10px 5px;
+        padding: 12px 5px; /* Más alto para tocar mejor con el dedo */
         border-radius: 6px;
         text-align: center;
         border: 1px solid #30363d;
         transition: all 0.2s ease;
       }
 
-      /* Efecto Hover (Ratón) */
-      nav a:hover { 
-        background-color: #30363d; 
-        color: #58a6ff; 
-        border-color: #8b949e;
-        transform: translateY(-2px);
+      /* Hover solo en PC (Evita que se quede pillado en móvil) */
+      @media (hover: hover) {
+        nav a:hover { 
+          background-color: #30363d; 
+          color: #58a6ff !important; 
+          border-color: #8b949e;
+          transform: translateY(-2px);
+        }
       }
 
-      /* --- CORRECCIONES TEMA --- */
+      /* --- CORRECCIONES PARA EL TEMA QUE NOS MOLESTA --- */
       .wrapper { margin-top: 20px; }
+      
+      /* Ocultamos cosas del tema original */
       .button.fork, .credits, footer p { display: none !important; }
+      
+      /* IMPORTANTE: Sobrescribimos la regla del tema que oculta el menú en móvil */
+      @media screen and (max-width: 640px) {
+        nav { display: block !important; }
+        nav ul { display: flex !important; }
+      }
 
     </style>
   </head>
