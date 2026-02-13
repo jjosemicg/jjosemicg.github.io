@@ -1,0 +1,24 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Ocultar botón "View on GitHub" */
+header a.button.fork {
+  display: none !important;
+}
+
+/* Ocultar los créditos del pie de página */
+.wrapper > footer p {
+    display: none !important;
+}
+
+/* 3. Ajuste para que tus tarjetas de certificados se vean bien en móvil */
+@media screen and (max-width: 600px) {
+  div[style*="display: flex"] {
+    flex-direction: column;
+  }
+  div[style*="width: 300px"] {
+    width: 100% !important;
+  }
+}
