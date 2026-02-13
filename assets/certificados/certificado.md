@@ -41,5 +41,7 @@ Aquí puedes consultar la documentación oficial de mis titulaciones y cursos de
 ### 📜 Otros Cursos y Seminarios
 * **Introducción a la IA Generativa** - Google Cloud Skills [Ver PDF](#)
 * **Seguridad en Redes** - Cisco Academy [Ver PDF](#)
+* **Título ESO** - [Ver PDF](./CertificadoESO.pdf)
+* **Título Bachillerato** - [Ver PDF](./CertificadoBachillerato.pdf)
 
 [🔙 Volver al Inicio](/)
