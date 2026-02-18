@@ -2,14 +2,14 @@
 layout: default
 ---
 
-# 👋 Hola, soy Jose Miguel.
+# Hola, soy Jose Miguel.
 
 <img src="https://github.com/jjosemicg.png" alt="Foto Perfil" width="150" style="border-radius: 50%; border: 3px solid #58a6ff; margin-bottom: 20px;">
 
 > **Ingeniero Informático en formación & Emprendedor Tecnológico.**
 > *Región de Murcia, España*
 
-Bienvenido a mi web personal. Soy un apasionado de la tecnología con un perfil híbrido: disfruto tanto escribiendo líneas de código complejas como manchándome las manos reparando hardware o montando relojes.
+Bienvenido a mi web personal. Soy un apasionado de la tecnología con un perfil híbrido: disfruto tanto escribiendo líneas de código como manchándome las manos reparando hardware o montando relojes.
 
 ---
 
