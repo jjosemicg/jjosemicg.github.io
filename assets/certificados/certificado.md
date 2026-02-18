@@ -51,8 +51,8 @@ A continuación se muestran las credenciales oficiales.
 <hr style="border-color: var(--border-color);">
 
 ### 📜 Otros Títulos
-* **Título Bachillerato** - I.E.S Sanje (Ciencias Tecnológicas)
-* **Título ESO** - I.E.S Sanje
+* **Título Bachillerato** - I.E.S Samaniego (Ciencias Tecnológicas)[/certificadoESO.jpg]
+* **Título ESO** - I.E.S Samaniego[/certificadoBachillerato.jpg]
 
 <div style="text-align: center; margin-top: 40px; margin-bottom: 60px;">
   <a href="/" class="btn-magic">🔙 Volver al Inicio</a>
