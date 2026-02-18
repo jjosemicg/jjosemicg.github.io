@@ -1,41 +1,43 @@
-# Hola, soy Jose Miguel.
+---
+layout: default
+---
 
-<img src="https://github.com/jjosemicg.png" alt="Foto Perfil" width="150" style="border-radius: 50%; border: 3px solid #36BCF7;">
+# 👋 Hola, soy Jose Miguel.
+
+<img src="https://github.com/jjosemicg.png" alt="Foto Perfil" width="150" style="border-radius: 50%; border: 3px solid #58a6ff; margin-bottom: 20px;">
 
 > **Ingeniero Informático en formación & Emprendedor Tecnológico.**
-> Apasionado por unir el mundo del *software* (IA, Apps) con el *hardware* (Sensores, Robótica).
+> *Región de Murcia, España*
+
+Bienvenido a mi web personal. Soy un apasionado de la tecnología con un perfil híbrido: disfruto tanto escribiendo líneas de código complejas como manchándome las manos reparando hardware o montando relojes.
 
 ---
 
-[🏠 Inicio](/) | [📱 App Magia](/proyectos/magia/) | [🛠 Hardware](/proyectos/hardware/) | [🎓 Certificados](/assets/certificados/certificado/)
+## 🎯 Sobre Mí
+Estudiante de último año del Grado en Ingeniería Informática en la Universidad de Murcia. Me caracterizo por mi **capacidad de autoaprendizaje** y mi enfoque práctico. No me limito a la teoría; me gusta construir cosas que funcionen en el mundo real.
 
-## 🛠 Proyectos Destacados
-
-### 📱 [App de Magia Interactiva (TFG)](/proyectos/magia/)
-*En desarrollo | iOS, Android, Web*
-Un ecosistema digital que fusiona ilusionismo y tecnología.
-- **Tech Stack:** IA Generativa, Sensores de Hardware (Magnetómetro, Bluetooth, ...), Lógica Visual.
-- **Innovación:** Editor de trucos "No-Code" y Marketplace integrado.
-
-### ⌚ [Modding de Hardware & Seiko Mods](/proyectos/hardware/)
-*Freelance | Ingeniería de Precisión*
-Diseño, ensamblaje y modificación de relojería automática y hardware electrónico.
-- **Habilidades:** Reparacion de equipos tecnológicos (teléfonos, ordenadores...), Creacion de proyectos robóticos, Impresión 3D.
-
-### 🚀 [E-commerce & Estrategia Digital](/proyectos/web/)
-*Freelance*
-Desarrollo de tiendas Shopify optimizadas, gestión de ventas en Amazon, ventas SEO...
-- **Logros:** Implementación de estrategias SEO y automatización de procesos.
+Mi objetivo es aportar mi visión técnica y emprendedora a proyectos innovadores, especialmente aquellos que cruzan la barrera entre el software y el mundo físico.
 
 ---
 
-## 💻 Stack Tecnológico
+## 💼 Experiencia Resumida
 
-| Core | Herramientas | Hardware |
-| :--- | :--- | :--- |
-| **Java / C++** | Git / GitHub | Arduino / RPi |
-| **Python / IA** | Adobe Premiere | Impresión 3D |
-| **Web Tech** | Shopify / SEO | Reparación |
+* **Freelance Tecnológico (2022 - Actualidad):** He gestionado mis propios proyectos de e-commerce y servicios técnicos, aprendiendo a tratar con clientes y resolver problemas reales.
+* **Soporte Técnico:** Experiencia diagnosticando y reparando equipos informáticos a nivel de hardware y software.
+
+---
+
+## 🌟 Mis Aficiones
+Lo que hago cuando no estoy programando define quién soy:
+
+* **Magia e Ilusionismo:** Mi gran pasión, que ahora estoy fusionando con la ingeniería en mi TFG.
+* **Relojería (Seiko Mods):** Modificación y ensamblaje de relojes automáticos. Paciencia y precisión.
+* **Impresión 3D:** Diseño y fabricación de piezas para mis proyectos de robótica.
+
+---
+<div style="text-align: center; margin-top: 40px;">
+  <a href="/hub-proyectos/" style="background: #1f6feb; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.1em;">Ver mis Proyectos y Habilidades ➔</a>
+</div>
 
 ---
 
