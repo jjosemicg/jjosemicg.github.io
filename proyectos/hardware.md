@@ -11,18 +11,6 @@ Como Ingeniero Informático, creo que entender el hardware es fundamental para e
 
 ---
 
-## ⌚ Seiko Mods: Ingeniería de Precisión
-El "Seiko Modding" es el arte de modificar relojes automáticos para crear piezas únicas, une mi gusto por los relojes y la necesidad interna de crear cosas. Requiere paciencia extrema, pulso firme y gestión de componentes micrométricos.
-
-### Mis Especialidades:
-* **Ensamblaje Completo:** Montaje de movimientos automáticos (NH35/NH36) desde cero.
-* **Personalización Estética:** Cambio de diales, agujas y cristales de zafiro.
-* **Calibración:** Ajuste de la precisión del movimiento mecánico.
-
-> *Aquí irán las fotos de tus mejores relojes.*
-
----
-
 ## 🔬 Diagnóstico y Microelectrónica
 Experiencia profesional y freelance en la recuperación de equipos informáticos.
 
@@ -37,6 +25,18 @@ Uso la impresión 3D para prototipar piezas personalizadas y carcasas para mis p
 
 * **Diseño CAD y Blender:** Creación de modelos para solucionar problemas cotidianos o soportes para sensores usando Blender y Fusion360.
 * **Prototipado Rápido:** Iteración de piezas físicas para proyectos de **domótica** y **robótica**.
+
+---
+
+## ⌚ Seiko Mods: Ingeniería de Precisión
+El "Seiko Modding" es el arte de modificar relojes automáticos para crear piezas únicas, une mi gusto por los relojes y la necesidad interna de crear cosas. Requiere paciencia extrema, pulso firme y gestión de componentes micrométricos.
+
+### Mis Especialidades:
+* **Ensamblaje Completo:** Montaje de movimientos automáticos (NH35/NH36) desde cero.
+* **Personalización Estética:** Cambio de diales, agujas y cristales de zafiro.
+* **Calibración:** Ajuste de la precisión del movimiento mecánico.
+
+> *Aquí irán las fotos de tus mejores relojes.*
 
 ---
 
