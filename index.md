@@ -39,6 +39,8 @@ Lo que hago cuando no estoy programando define quién soy:
   <a href="/hub-proyectos/" style="background: #1f6feb; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: bold; font-size: 1.1em;">Ver mis Proyectos y Habilidades ➔</a>
 </div>
 
+
+
 ---
 
 ## 📬 Contacto
