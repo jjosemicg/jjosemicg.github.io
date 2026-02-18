@@ -36,6 +36,14 @@ Lo que hago cuando no estoy programando define quién soy:
 * **Relojería (Seiko Mods):** Modificación y ensamblaje de relojes automáticos. Paciencia y precisión.
 * **Impresión 3D:** Diseño y fabricación de piezas para mis proyectos de robótica.
 
+
+<div style="text-align: center; margin-top: 40px; margin-bottom: 60px;">
+  <a href="/hub-proyectos/" class="btn-magic">
+    🚀 Ver Proyectos y Habilidades
+  </a>
+</div>
+
+
 <div style="text-align: center; margin-top: 60px; margin-bottom: 60px;">
   
   <h2>📬 Contacto</h2>
