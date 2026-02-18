@@ -40,6 +40,8 @@ Lo que hago cuando no estoy programando define quién soy:
   </a>
 </div>
 
-## 📬 Contacto
-¿Tienes un proyecto en mente?
-[LinkedIn](https://www.linkedin.com/in/jose-miguel-caravaca-guirao-275267257) • [Email](mailto:jmcg3101@gmail.com)
+<div style="text-align: center; margin-top: 60px; margin-bottom: 40px;">
+  <h2>📬 Contacto</h2>
+  <p>¿Tienes un proyecto en mente?</p>
+  <a href="https://www.linkedin.com/in/jose-miguel-caravaca-guirao-275267257" target="_blank">LinkedIn</a> • <a href="mailto:jmcg3101@gmail.com">Email</a>
+</div>
