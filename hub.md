@@ -34,9 +34,9 @@ Aunque mi foco principal es el software, tengo una fuerte base en hardware y neg
     <h3 style="margin-top: 0;"><a href="/proyectos/hardware/">⚙️ Hardware & Lab</a></h3>
     <p>Experiencia práctica en el mundo físico.</p>
     <ul>
-      <li><strong>Seiko Mods:</strong> Montaje de relojería de precisión.</li>
       <li><strong>Reparaciones:</strong> Diagnóstico de placas y microsoldadura.</li>
       <li><strong>Robótica:</strong> Prototipado e Impresión 3D.</li>
+      <li><strong>Seiko Mods:</strong> Montaje de relojería de precisión.</li>
     </ul>
     <a href="/proyectos/hardware/" style="color: #58a6ff; font-weight: bold; font-size: 0.9em;">Ver mis trabajos de Hardware ➔</a>
   </div>
