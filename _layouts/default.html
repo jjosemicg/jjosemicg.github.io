@@ -24,12 +24,12 @@
       nav { display: block !important; }
       nav ul { 
         display: flex !important; flex-wrap: wrap !important;
-        justify-content: center; align-items: center; gap: 15px; /* Más separación entre los 3 botones */
+        justify-content: center; align-items: center; gap: 15px;
         padding: 0 5px; margin: 0 auto; list-style: none;
       }
       nav ul li { display: block !important; flex: 0 1 auto; }
 
-      /* BOTONES */
+      /* BOTONES (Estilo PC) */
       nav a { 
         display: block !important;
         background-color: transparent; border: 1px solid transparent;
@@ -42,13 +42,21 @@
         color: #58a6ff !important;
       }
 
-      /* --- CORRECCIONES --- */
+      /* --- CORRECCIONES TEMA --- */
       .wrapper { margin-top: 20px; }
       .button.fork, .credits, footer p { display: none !important; }
       
-      @media screen and (max-width: 400px) {
-        nav ul { gap: 5px; }
-        nav a { padding: 8px 10px; font-size: 0.9em; }
+      /* --- AJUSTE MÓVIL (Compacto) --- */
+      @media screen and (max-width: 600px) {
+        nav ul { 
+          gap: 5px; /* Menos espacio entre botones */
+        }
+        nav a { 
+          /* Reducimos drásticamente el tamaño para que queden compactos */
+          padding: 6px 8px !important; 
+          font-size: 0.8em !important; 
+          font-weight: normal; 
+        }
       }
     </style>
   </head>
@@ -57,9 +65,9 @@
     <div id="custom-nav-bar">
       <nav>
         <ul>
-          <li><a href="/">🏠 Sobre Mí</a></li>
-          <li><a href="/hub-proyectos/">🚀 Proyectos y Habilidades</a></li>
-          <li><a href="/assets/certificados/certificado/">🎓 Certificados</a></li>
+          <li><a href="/"><span class="emoji">🏠</span> Sobre Mí</a></li>
+          <li><a href="/hub-proyectos/"><span class="emoji">🚀</span> Proyectos</a></li>
+          <li><a href="/assets/certificados/certificado/"><span class="emoji">🎓</span> Certificados</a></li>
         </ul>
       </nav>
     </div>
