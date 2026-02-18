@@ -9,37 +9,39 @@ permalink: /assets/certificados/certificado/
 
 Aquí puedes consultar la documentación oficial de mis titulaciones y cursos de especialización.
 
-<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: flex-start;">
+<div style="display: flex; flex-wrap: wrap; gap: 20px; justify-content: center;">
 
-  <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid #30363d; border-radius: 8px; padding: 20px; width: 300px; flex-grow: 1;">
+  <div class="project-card" style="flex: 1; min-width: 300px;">
     <h3 style="margin-top: 0;">🏛️ Grado Ingeniería Informática</h3>
-    <p style="color: #8b949e; font-size: 0.9em;">Universidad de Murcia</p>
+    <p style="color: var(--accent-color); font-size: 0.9em; font-weight: bold;">Universidad de Murcia</p>
     <p>Especialización en Computación (IA).</p>
-    <a href="/assets/certificados/expediente.pdf" target="_blank" style="background: #238636; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; display: inline-block; margin-top: 10px; font-weight: bold;">📄 Ver Título Oficial (Actualmente el expediente)</a>
+    <a href="/assets/certificados/expediente.pdf" target="_blank" class="btn-magic" style="width: 100%; box-sizing: border-box;">📄 Ver Expediente Académico</a>
   </div>
 
-  <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid #30363d; border-radius: 8px; padding: 20px; width: 300px; flex-grow: 1;">
+  <div class="project-card" style="flex: 1; min-width: 300px;">
     <h3 style="margin-top: 0;">📈 Marketing Digital</h3>
-    <p style="color: #8b949e; font-size: 0.9em;">Benowu International</p>
+    <p style="color: var(--accent-color); font-size: 0.9em; font-weight: bold;">Benowu International</p>
     <p>Curso intensivo sobre SEO, SEM y estrategias de crecimiento digital y desarrollo de apps.</p>
-    <a href="/assets/certificados/Benowu.pdf" target="_blank" style="background: #1f6feb; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; display: inline-block; margin-top: 10px; font-weight: bold;">📄 Ver Certificado</a>
+    <a href="/assets/certificados/Benowu.pdf" target="_blank" class="btn-magic" style="width: 100%; box-sizing: border-box;">📄 Ver Certificado</a>
   </div>
 
-  <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid #30363d; border-radius: 8px; padding: 20px; width: 300px; flex-grow: 1;">
+  <div class="project-card" style="flex: 1; min-width: 300px;">
     <h3 style="margin-top: 0;">🇬🇧 Inglés B2 (First)</h3>
-    <p style="color: #8b949e; font-size: 0.9em;">Language Cert</p>
+    <p style="color: var(--accent-color); font-size: 0.9em; font-weight: bold;">Language Cert</p>
     <p>Certificación de nivel intermedio-alto con competencia profesional.</p>
-    <a href="/assets/certificados/e-cert.pdf" target="_blank" style="background: #1f6feb; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; display: inline-block; margin-top: 10px; font-weight: bold;">📄 Ver Certificado Listening, Reading y Writing</a>
-    <a href="/assets/certificados/Speaking-cert.pdf" target="_blank" style="background: #1f6feb; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; display: inline-block; margin-top: 10px; font-weight: bold;">📄 Ver Certificado Speaking</a>
+    <a href="/assets/certificados/e-cert.pdf" target="_blank" class="btn-magic" style="width: 100%; box-sizing: border-box; margin-bottom: 10px;">📄 Listening, Reading & Writing</a>
+    <a href="/assets/certificados/Speaking-cert.pdf" target="_blank" class="btn-magic" style="width: 100%; box-sizing: border-box;">📄 Certificado Speaking</a>
   </div>
 
 </div>
 
 <br>
-<hr>
+<hr style="border-color: var(--border-color);">
 
 ### 📜 Otros Cursos y Seminarios
 * **Título ESO** - [Ver PDF](./CertificadoESO.pdf)
 * **Título Bachillerato** - [Ver PDF](./CertificadoBachillerato.pdf)
 
-[🔙 Volver al Inicio](/)
+<div style="text-align: center; margin-top: 40px; margin-bottom: 60px;">
+  <a href="/" class="btn-magic">🔙 Volver al Inicio</a>
+</div>
