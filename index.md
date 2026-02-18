@@ -34,14 +34,18 @@ Lo que hago cuando no estoy programando define quién soy:
 * **Relojería (Seiko Mods):** Modificación y ensamblaje de relojes automáticos. Paciencia y precisión.
 * **Impresión 3D:** Diseño y fabricación de piezas para mis proyectos de robótica.
 
-<div style="text-align: center; margin-top: 40px; margin-bottom: 60px;">
-  <a href="/hub-proyectos/" class="btn-magic">
-    🚀 Ver Proyectos y Habilidades
-  </a>
-</div>
-
-<div style="text-align: center; margin-top: 60px; margin-bottom: 40px;">
+<div style="text-align: center; margin-top: 60px; margin-bottom: 60px;">
+  
   <h2>📬 Contacto</h2>
-  <p>¿Tienes un proyecto en mente?</p>
-  <a href="https://www.linkedin.com/in/jose-miguel-caravaca-guirao-275267257" target="_blank">LinkedIn</a> • <a href="mailto:jmcg3101@gmail.com">Email</a>
+  
+  <p style="text-align: center !important; margin-bottom: 10px;">
+    ¿Tienes un proyecto en mente?
+  </p>
+
+  <div style="font-size: 1.1em;">
+    <a href="https://www.linkedin.com/in/jose-miguel-caravaca-guirao-275267257" target="_blank" style="font-weight: bold;">LinkedIn</a> 
+    <span style="color: var(--text-color); margin: 0 10px;">•</span> 
+    <a href="mailto:jmcg3101@gmail.com" style="font-weight: bold;">Email</a>
+  </div>
+
 </div>
