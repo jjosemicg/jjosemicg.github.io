@@ -15,7 +15,7 @@ Aquí puedes consultar la documentación oficial de mis titulaciones y cursos de
     <h3 style="margin-top: 0;">🏛️ Grado Ingeniería Informática</h3>
     <p style="color: #8b949e; font-size: 0.9em;">Universidad de Murcia</p>
     <p>Especialización en Computación (IA).</p>
-    <a href="/assets/certificados/grado-informatica.pdf" target="_blank" style="background: #238636; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; display: inline-block; margin-top: 10px; font-weight: bold;">📄 Ver Título Oficial</a>
+    <a href="/assets/certificados/expediente.pdf" target="_blank" style="background: #238636; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; display: inline-block; margin-top: 10px; font-weight: bold;">📄 Ver Título Oficial (Actualmente el expediente)</a>
   </div>
 
   <div style="background: rgba(255, 255, 255, 0.05); border: 1px solid #30363d; border-radius: 8px; padding: 20px; width: 300px; flex-grow: 1;">
