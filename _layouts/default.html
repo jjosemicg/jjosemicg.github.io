@@ -11,69 +11,45 @@
       /* --- ESTILOS BASE --- */
       body { margin: 0; padding: 0; background-color: #1e2227; }
       
-      /* --- BARRA DE NAVEGACIÓN COMPACTA --- */
+      /* --- BARRA DE NAVEGACIÓN --- */
       #custom-nav-bar {
-        background: #0d1117; /* Fondo oscuro elegante */
-        border-bottom: 1px solid #21262d; /* Línea muy sutil */
-        padding: 5px 0; /* MUCHO MÁS PEQUEÑO (Antes era 15px) */
+        background: #0d1117; 
+        border-bottom: 1px solid #21262d; 
+        padding: 5px 0; 
         width: 100%;
-        position: sticky; 
-        top: 0;
-        z-index: 9999;
+        position: sticky; top: 0; z-index: 9999;
         box-shadow: 0 2px 8px rgba(0,0,0,0.4);
       }
 
-      /* Forzamos que el menú se vea SIEMPRE */
       nav { display: block !important; }
-
       nav ul { 
-        display: flex !important; 
-        flex-wrap: wrap !important; /* Se adaptan si no caben */
-        justify-content: center; 
-        align-items: center;
-        gap: 4px; /* Espacio pequeño entre botones */
-        padding: 0 5px;
-        margin: 0 auto;
-        list-style: none;
+        display: flex !important; flex-wrap: wrap !important;
+        justify-content: center; align-items: center; gap: 15px; /* Más separación entre los 3 botones */
+        padding: 0 5px; margin: 0 auto; list-style: none;
       }
-      
-      nav ul li { 
-        display: block !important;
-        /* Quitamos el ancho mínimo forzado para que sean más compactos */
-        flex: 0 1 auto; 
-      }
+      nav ul li { display: block !important; flex: 0 1 auto; }
 
-      /* ESTILO DE LOS BOTONES (TRANSPARENTES Y PEQUEÑOS) */
+      /* BOTONES */
       nav a { 
         display: block !important;
-        background-color: transparent; /* TRANSPARENTE (Como querías) */
-        border: 1px solid transparent; /* SIN BORDE VISIBLE */
-        color: #c9d1d9 !important; 
-        font-weight: 600; 
-        text-decoration: none; 
-        font-size: 0.85em; /* Letra más pequeña y fina */
-        padding: 6px 10px; /* Relleno compacto */
-        border-radius: 4px;
+        background-color: transparent; border: 1px solid transparent;
+        color: #c9d1d9 !important; font-weight: 600; text-decoration: none; 
+        font-size: 0.95em; padding: 8px 15px; border-radius: 4px;
         transition: all 0.2s ease;
       }
-
-      /* Efecto Hover (Solo al pasar el ratón) */
       nav a:hover { 
-        background-color: rgba(110, 118, 129, 0.1); /* Gris muy suave translúcido */
-        color: #58a6ff !important; /* Azul GitHub */
-        text-decoration: none;
+        background-color: rgba(110, 118, 129, 0.1); 
+        color: #58a6ff !important;
       }
 
-      /* --- CORRECCIONES TEMA --- */
+      /* --- CORRECCIONES --- */
       .wrapper { margin-top: 20px; }
       .button.fork, .credits, footer p { display: none !important; }
       
-      /* --- MÓVIL EXTREMO (Pantallas muy estrechas) --- */
       @media screen and (max-width: 400px) {
-        nav ul { gap: 2px; }
-        nav a { padding: 5px 8px; font-size: 0.8em; }
+        nav ul { gap: 5px; }
+        nav a { padding: 8px 10px; font-size: 0.9em; }
       }
-
     </style>
   </head>
   
@@ -81,10 +57,9 @@
     <div id="custom-nav-bar">
       <nav>
         <ul>
-          <li><a href="/">🏠 Inicio</a></li>
-          <li><a href="/proyectos/magia/">📱 App Magia</a></li>
-          <li><a href="/proyectos/web/">🚀 E-commerce</a></li>
-          <li><a href="/assets/certificados/certificado/">🎓 Títulos</a></li>
+          <li><a href="/">🏠 Sobre Mí</a></li>
+          <li><a href="/hub-proyectos/">🚀 Proyectos y Habilidades</a></li>
+          <li><a href="/assets/certificados/certificado/">🎓 Certificados</a></li>
         </ul>
       </nav>
     </div>
@@ -96,16 +71,13 @@
           <p>{{ site.description | default: site.github.project_tagline }}</p>
           <hr>
         </div>
-
         {{ content }}
-
       </section>
       
       <section class="footer" style="text-align: center; margin-top: 50px; opacity: 0.4; font-size: 0.8em; color: #8b949e;">
         <p>&copy; 2026 Jose Miguel Caravaca Guirao</p>
       </section>
     </div>
-    
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
   </body>
 </html>
