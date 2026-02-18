@@ -10,16 +10,16 @@
     <style>
       /* --- 1. PALETA DE COLORES GLOBAL --- */
       :root {
-        --bg-color: #121418;       /* Gris Oscuro Profundo */
-        --nav-bg: #0a0c10;         /* Barra de navegación más oscura */
-        --text-color: #e6edf3;     /* Blanco suave */
-        --link-color: #64b5f6;     /* Azul Tech (Enlaces) */
-        --accent-color: #b39ddb;   /* Morado Lavanda (Hover/Magia) */
-        --border-color: #30363d;   /* Bordes sutiles */
-        --card-bg: rgba(255, 255, 255, 0.04); /* Fondo de tarjetas */
+        --bg-color: #121418;       
+        --nav-bg: #0a0c10;         
+        --text-color: #e6edf3;     
+        --link-color: #64b5f6;     
+        --accent-color: #b39ddb;   
+        --border-color: #30363d;   
+        --card-bg: rgba(255, 255, 255, 0.04); 
       }
 
-      /* --- 2. RESET Y ESTRUCTURA --- */
+      /* --- 2. ESTRUCTURA Y ALINEACIÓN --- */
       body { 
         margin: 0; padding: 0; 
         background-color: var(--bg-color); 
@@ -27,10 +27,23 @@
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
       }
       
-      /* Forzamos el color de los textos para sobrescribir el tema Midnight */
-      p, h1, h2, h3, h4, li { color: var(--text-color) !important; }
+      /* CENTRADO DE TEXTOS GLOBALES */
+      p, li { color: var(--text-color) !important; }
       
-      /* Enlaces: Azul por defecto, Morado al pasar el ratón */
+      /* Aquí está la magia: Títulos centrados */
+      h1, h2, h3, h4 { 
+        text-align: center; 
+        color: var(--text-color) !important; 
+      }
+      
+      /* Párrafos introductorios centrados (opcional, da elegancia) */
+      section > p {
+        text-align: center;
+        max-width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
       a { color: var(--link-color) !important; text-decoration: none; transition: color 0.2s ease; }
       a:hover { color: var(--accent-color) !important; }
 
@@ -51,22 +64,41 @@
       }
       nav ul li { display: block !important; flex: 0 1 auto; }
 
-      /* Botones del Menú */
       nav a { 
         display: block !important;
         background-color: transparent; border: 1px solid transparent;
-        color: var(--text-color) !important; /* Texto blanco en menú */
+        color: var(--text-color) !important; 
         font-weight: 500; font-size: 0.95em; 
         padding: 8px 15px; border-radius: 6px;
       }
       nav a:hover { 
-        background-color: rgba(100, 181, 246, 0.1); /* Fondo azul muy sutil */
+        background-color: rgba(100, 181, 246, 0.1); 
         color: var(--link-color) !important;
         border: 1px solid var(--border-color);
       }
 
-      /* --- 4. CLASE MÁGICA PARA BOTONES (NUEVO) --- */
-      /* Usaremos esta clase .btn-magic en tus proyectos para que todos sean iguales */
+      /* --- 4. TARJETAS (CENTRADO INTERNO) --- */
+      .project-card {
+        background: var(--card-bg);
+        border: 1px solid var(--border-color);
+        border-radius: 12px;
+        padding: 25px;
+        margin-bottom: 20px;
+        transition: transform 0.2s ease, border-color 0.2s ease;
+        text-align: center; /* Alineamos el texto dentro de la tarjeta al centro */
+      }
+      .project-card:hover {
+        transform: translateY(-3px);
+        border-color: var(--accent-color);
+      }
+
+      /* Listas dentro de tarjetas: alineadas a la izquierda para que se lean bien, pero centradas en bloque */
+      .project-card ul {
+        text-align: left;
+        display: inline-block; /* Truco para centrar el bloque de la lista */
+      }
+
+      /* --- 5. BOTONES MÁGICOS --- */
       .btn-magic {
         display: inline-block;
         background: linear-gradient(135deg, rgba(30, 41, 59, 0.8), rgba(15, 23, 42, 0.8));
@@ -81,24 +113,9 @@
       }
       .btn-magic:hover {
         background: var(--link-color);
-        color: #000 !important; /* Texto negro al iluminarse */
-        box-shadow: 0 0 15px var(--link-color); /* Efecto neón */
+        color: #000 !important; 
+        box-shadow: 0 0 15px var(--link-color);
         border-color: var(--link-color);
-      }
-
-      /* --- 5. TARJETAS (Cards) --- */
-      /* Esto arreglará tus cuadros de proyectos automáticamente */
-      .project-card {
-        background: var(--card-bg);
-        border: 1px solid var(--border-color);
-        border-radius: 12px;
-        padding: 25px;
-        margin-bottom: 20px;
-        transition: transform 0.2s ease, border-color 0.2s ease;
-      }
-      .project-card:hover {
-        transform: translateY(-3px);
-        border-color: var(--accent-color); /* Borde morado al pasar ratón */
       }
 
       /* --- AJUSTES MÓVIL --- */
@@ -108,8 +125,14 @@
         .wrapper { padding: 10px; }
       }
 
-      /* Limpieza del tema */
-      .wrapper { margin-top: 30px; max-width: 900px; margin-left: auto; margin-right: auto; padding: 0 20px;}
+      /* Limpieza y Centrado del Contenedor Principal */
+      .wrapper { 
+        margin-top: 30px; 
+        max-width: 900px; 
+        margin-left: auto; 
+        margin-right: auto; 
+        padding: 0 20px;
+      }
       .button.fork, .credits, footer p { display: none !important; }
     </style>
   </head>
