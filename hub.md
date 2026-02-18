@@ -17,7 +17,7 @@ Aquí detallo mis competencias técnicas y los proyectos principales en los que 
   <p>Mi proyecto más complejo hasta la fecha. Una aplicación multiplataforma que combina sensores de hardware, IA generativa y lógica de programación visual.</p>
   <ul style="margin-bottom: 15px;">
     <li><strong>Tecnologías:</strong> Java/Flutter, IA, Sensores Hardware.</li>
-    <li><strong>Estado:</strong> En desarrollo avanzado (TFG).</li>
+    <li><strong>Estado:</strong> En desarrollo (TFG).</li>
   </ul>
   <a href="/proyectos/magia/" style="background: #238636; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px; display: inline-block; font-weight: bold;">Ver Detalles del Proyecto ➔</a>
 </div>
