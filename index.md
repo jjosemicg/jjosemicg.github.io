@@ -4,8 +4,10 @@ layout: default
 
 # Hola, soy Jose Miguel.
 
-<img src="https://github.com/jjosemicg.png" alt="Foto Perfil" width="150" style="border-radius: 50%; border: 3px solid #58a6ff; margin-bottom: 20px;">
-
+<img src="https://github.com/jjosemicg.png" 
+     alt="Foto Perfil" 
+     width="150" 
+     style="display: block; margin-left: auto; margin-right: auto; border-radius: 50%; border: 3px solid #58a6ff; margin-bottom: 20px;">
 > **Ingeniero Informático en formación & Emprendedor Tecnológico.**
 > *Región de Murcia, España*
 
